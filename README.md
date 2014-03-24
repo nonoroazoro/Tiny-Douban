@@ -9,7 +9,7 @@ Tiny Douban is a simple customized style for [Douban](http://www.douban.com).
 
 - **Automating** (*Recommended*): [Check Here](http://userstyles.org/styles/90123/tiny-douban).
 
-- **Manual**: Add a new style in [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/) for [InoReader](https://www.inoreader.com) and paste the content of [Tiny-InoReader.css](/Tiny-Douban.css) into it.
+- **Manual**: Add a new style in [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/) for [Douban](http://www.douban.com) and paste the content of [Tiny-Douban.css](/Tiny-Douban.css) into it.
 
 #Changelog
 
