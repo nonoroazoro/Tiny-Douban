@@ -140,6 +140,26 @@
         background: none repeat scroll 0% 0% #F6F5F2 !important;
     }
 
+    /* douban location - h2 */
+    #db-nav-location ~ #wrapper div.hd
+    {
+        background: #E2DDD4 !important;
+        border-radius: 3px !important;
+        padding: 4px !important;
+    }
+
+    /* douban location - slide control */
+    #db-nav-location ~ #wrapper .ui-slide-control
+    {
+        line-height: 27px !important;
+    }
+
+    /* douban location - app list */
+    #db-nav-location ~ #wrapper a.entrance-link.first-link
+    {
+        background: transparent !important;
+    }
+
     /* douban group - background color */
     #db-nav-group ~ #wrapper
     {
