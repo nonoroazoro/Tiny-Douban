@@ -14,7 +14,7 @@
     }
 
     /* fixed top bar */
-    div.global-nav
+    .global-nav
     {
         position: fixed !important;
         width: 100% !important;
@@ -22,44 +22,19 @@
     }
 
     /* header */
-    div.nav
+    .nav
     {
         padding-top: 28px !important;
         margin-bottom: 28px !important;
     }
 
-    /******************* content area - start *****************/
-    /* douban book background color */
-     #db-nav-book ~ #wrapper
+    /* h2, h3 */
+    h2, h3
     {
-        background: none repeat scroll 0% 0% #F6F6F1 !important;
+        border-radius: 3px !important;
     }
 
-    /* douban movie background color */
-    #db-nav-movie ~ #wrapper
-    {
-        background: none repeat scroll 0% 0% #F0F3F5 !important;
-    }
-
-    /* douban music background color */
-    #db-nav-music ~ #wrapper
-    {
-        background: none repeat scroll 0% 0% #F0F3EF !important;
-    }
-
-    /* douban location background color */
-    #db-nav-location ~ #wrapper
-    {
-        background: none repeat scroll 0% 0% #F6F5F2 !important;
-    }
-
-    /* douban group background color */
-    #db-nav-group ~ #wrapper
-    {
-        background: none repeat scroll 0% 0% #F0F6F3 !important;
-    }
-
-    /* border-radius */
+    /* content area border-radius */
     #wrapper
     {
         padding: 20px 20px 0 !important;
@@ -68,11 +43,96 @@
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
     }
 
+    /* douban book - background color */
+    #db-nav-book ~ #wrapper
+    {
+        background: none repeat scroll 0% 0% #F6F6F1 !important;
+    }
+
+    /* douban book - h2 */
+    #db-nav-book ~ #wrapper h2
+    {
+        background: #E2E2D1 !important;
+        padding: 4px !important;
+        font-weight: bold !important;
+    }
+
+    /* douban book - h3 */
+    #db-nav-book ~ #wrapper h3
+    {
+        background: #E2E2D1 !important;
+        padding: 4px !important;
+    }
+
+    /* douban book - slide control */
+    #db-nav-book ~ #wrapper .slide-controls
+    {
+        margin-top: -45px !important;
+        margin-right: 5px !important;
+    }
+
+    /* douban book - douban reader list */
+    #db-nav-book ~ #wrapper .list-reader b,
+    #db-nav-book ~ #wrapper ul.app-list
+    {
+        background-color: transparent !important;
+    }
+
+    /* douban movie - background color */
+    #db-nav-movie ~ #wrapper
+    {
+        background: none repeat scroll 0% 0% #F0F3F5 !important;
+    }
+
     /* douban movie - cinema search */
-    #wrapper #cinemas-search
+    #db-nav-movie ~ #wrapper #cinemas-search
     {
         background-color: transparent !important;
         padding: 0 !important;
     }
-    /******************* content area - end *******************/
+
+    /* douban movie - slide control */
+    #db-nav-movie ~ #wrapper .ui-slide-control
+    {
+        margin-top: 7px !important;
+    }
+
+    /* douban movie - h2 */
+    #db-nav-movie ~ #wrapper h2
+    {
+        background: #D2DBE1 !important;
+        font-weight: bold !important;
+        padding: 4px !important;
+    }
+
+    /* douban movie - h3 */
+    #db-nav-movie ~ #wrapper h3
+    {
+        background: #D2DBE1 !important;
+        padding: 2px !important;
+    }
+
+    /* douban movie - app list */
+    #db-nav-movie ~ #wrapper a.entrance-link.first-link
+    {
+        background: transparent !important;
+    }
+
+    /* douban music - background color */
+    #db-nav-music ~ #wrapper
+    {
+        background: none repeat scroll 0% 0% #F0F3EF !important;
+    }
+
+    /* douban location - background color */
+    #db-nav-location ~ #wrapper
+    {
+        background: none repeat scroll 0% 0% #F6F5F2 !important;
+    }
+
+    /* douban group - background color */
+    #db-nav-group ~ #wrapper
+    {
+        background: none repeat scroll 0% 0% #F0F6F3 !important;
+    }
 }
