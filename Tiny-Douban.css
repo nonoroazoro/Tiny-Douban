@@ -7,6 +7,17 @@
         font-family: "Microsoft Yahei", Verdana, "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
     }
 
+    /* fixed top bar */
+    .global-nav
+    {
+        position: fixed !important;
+        width: 100% !important;
+        z-index: 99 !important;
+    }
+}
+
+@-moz-document domain("book.douban.com")
+{
     /* body background color */
     body
     {
@@ -14,12 +25,326 @@
         padding-bottom: 28px !important;
     }
 
-    /* fixed top bar */
-    .global-nav
+    /* header */
+    .nav
     {
-        position: fixed !important;
-        width: 100% !important;
-        z-index: 99 !important;
+        padding-top: 28px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* h2 */
+    h2
+    {
+        border-radius: 3px !important;
+        font-weight: bold !important;
+        padding: 4px !important;
+        background: #E2E2D1 !important;
+    }
+
+    /* h3 */
+    h3
+    {
+        border-radius: 3px !important;
+        background: #E2E2D1 !important;
+        padding: 4px !important;
+    }
+
+    /* content area border-radius */
+    #wrapper
+    {
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% #F6F6F1 !important;
+    }
+
+    /* slide control */
+    #wrapper .slide-controls
+    {
+        margin-top: -45px !important;
+        margin-right: 5px !important;
+    }
+
+    /* douban book list */
+    #wrapper .list-reader b,
+    #wrapper ul.app-list
+    {
+        background-color: transparent !important;
+    }
+}
+
+@-moz-document domain("movie.douban.com")
+{
+   /* body background color */
+    body
+    {
+        background-color: #76827B !important;
+        padding-bottom: 28px !important;
+    }
+
+    /* header */
+    .nav
+    {
+        padding-top: 28px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* h2 */
+    h2
+    {
+        border-radius: 3px !important;
+        font-weight: bold !important;
+        padding: 4px !important;
+        background: #D2DBE1 !important;
+    }
+
+    /* h3 */
+    h3
+    {
+        border-radius: 3px !important;
+        padding: 2px !important;
+    }
+
+    /* content area border-radius */
+    #wrapper
+    {
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% #F0F3F5 !important;
+    }
+
+    /* cinema search */
+    #wrapper #cinemas-search
+    {
+        background-color: transparent !important;
+        padding: 0 !important;
+    }
+
+    /* slide control */
+    #wrapper .ui-slide-control
+    {
+        margin-top: 7px !important;
+    }
+
+    /* app list */
+    #wrapper a.entrance-link.first-link
+    {
+        background: transparent !important;
+    }
+}
+
+@-moz-document domain("music.douban.com")
+{
+    /* body background color */
+    body
+    {
+        background-color: #76827B !important;
+        padding-bottom: 28px !important;
+    }
+
+    /* header */
+    .nav
+    {
+        padding-top: 28px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* h2 */
+    h2
+    {
+        border-radius: 3px !important;
+        font-weight: bold !important;
+        padding: 4px !important;
+        background-color: #D4DDD1 !important;
+    }
+
+    /* h3 */
+    h3
+    {
+        border-radius: 3px !important;
+    }
+
+    /* content area border-radius */
+    #wrapper
+    {
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% #F0F3EF !important;
+    }
+}
+
+@-moz-document url-prefix("http://www.douban.com/location")
+{
+    /* body background color */
+    body
+    {
+        background-color: #76827B !important;
+        padding-bottom: 28px !important;
+    }
+
+    /* header */
+    .nav
+    {
+        padding-top: 28px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* h2 */
+    h2
+    {
+        border-radius: 3px !important;
+        font-weight: bold !important;
+        padding: 4px !important;
+        line-height: 18px !important;
+    }
+
+    /* h3 */
+    h3
+    {
+        border-radius: 3px !important;
+    }
+
+    /* content area border-radius */
+    #wrapper
+    {
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% #F6F5F2 !important;
+    }
+
+    /* h2 */
+    #wrapper div.hd
+    {
+        background-color: #E2DDD4 !important;
+        border-radius: 3px !important;
+        padding: 4px !important;
+    }
+
+    /* span */
+    #wrapper div.hd > span.pl.rr
+    {
+        line-height: 26px !important;
+    }
+
+    /* tabs */
+    #wrapper div.tabs
+    {
+        line-height: 45px !important;
+    }
+
+    /* slide control */
+    #wrapper .ui-slide-control
+    {
+        line-height: 27px !important;
+    }
+
+    /* slide control */
+    #wrapper .ui-slide-control > a[class^="btn-"]
+    {
+        background-color: transparent !important;
+    }
+
+    /* app list */
+    #wrapper a.entrance-link.first-link
+    {
+        background-color: transparent !important;
+    }
+}
+
+@-moz-document url-prefix("http://www.douban.com/group")
+{
+  /* body background color */
+    body
+    {
+        background-color: #76827B !important;
+        padding-bottom: 28px !important;
+    }
+
+    /* header */
+    .nav
+    {
+        padding-top: 28px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* content area border-radius */
+    #wrapper
+    {
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% #F0F6F3 !important;
+    }
+}
+
+@-moz-document domain("read.douban.com")
+{
+    /* body background color */
+    body
+    {
+        background-color: #76827B !important;
+        padding-bottom: 28px !important;
+    }
+
+    /* douban read - border-radius and background color */
+    div.wrapper > div.main
+    {
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% rgb(246, 246, 241) !important;
+    }
+}
+
+@-moz-document domain("douban.fm")
+{
+
+}
+
+
+@-moz-document domain("dongxi.douban.com")
+{
+    /* body background color */
+    body
+    {
+        background-color: #76827B !important;
+        padding-bottom: 28px !important;
+    }
+
+    /* header */
+    .nav
+    {
+        padding-top: 28px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* content area border-radius */
+    #wrapper
+    {
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% rgb(247, 248, 237) !important;
+    }
+}
+
+@-moz-document url-prefix("http://www.douban.com/mobile")
+{
+    /* body background color */
+    body
+    {
+        background-color: #76827B !important;
+        padding-bottom: 28px !important;
     }
 
     /* header */
@@ -52,117 +377,53 @@
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
     }
 
-    /* douban book - background color */
-    #db-nav-book ~ #wrapper
+    /* background color */
+    #wrapper,
+    #wrapper div.show-more-link-wrap
     {
-        background: none repeat scroll 0% 0% #F6F6F1 !important;
+        background: none repeat scroll 0% 0% rgb(237, 244, 237) !important;
     }
 
-    /* douban book - h2 */
-    #db-nav-book ~ #wrapper h2
-    {
-        background: #E2E2D1 !important;
-     }
-
-    /* douban book - h3 */
-    #db-nav-book ~ #wrapper h3
-    {
-        background: #E2E2D1 !important;
-        padding: 4px !important;
-    }
-
-    /* douban book - slide control */
-    #db-nav-book ~ #wrapper .slide-controls
-    {
-        margin-top: -45px !important;
-        margin-right: 5px !important;
-    }
-
-    /* douban book - douban reader list */
-    #db-nav-book ~ #wrapper .list-reader b,
-    #db-nav-book ~ #wrapper ul.app-list
+    /* app preview */
+    #wrapper div.app-preview
     {
         background-color: transparent !important;
     }
+}
 
-    /* douban movie - background color */
-    #db-nav-movie ~ #wrapper
+/* 9.douban */
+@-moz-document domain("9.douban.com")
+{
+    /* body background color */
+    body
     {
-        background: none repeat scroll 0% 0% #F0F3F5 !important;
+        background-color: #4A5875 !important;
+        padding-bottom: 28px !important;
     }
 
-    /* douban movie - cinema search */
-    #db-nav-movie ~ #wrapper #cinemas-search
+    .header
     {
-        background-color: transparent !important;
-        padding: 0 !important;
+        margin-bottom: 28px !important;
     }
 
-    /* douban movie - slide control */
-    #db-nav-movie ~ #wrapper .ui-slide-control
+    /* seperator */
+    .bold_line
     {
-        margin-top: 7px !important;
+        display: none !important;
     }
 
-    /* douban movie - h2 */
-    #db-nav-movie ~ #wrapper h2
+    /* border-radius and background color */
+    .wapper.main
     {
-        background: #D2DBE1 !important;
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% rgb(246, 246, 241) !important;
     }
 
-    /* douban movie - h3 */
-    #db-nav-movie ~ #wrapper h3
+    .fnav a
     {
-        padding: 2px !important;
-    }
-
-    /* douban movie - app list */
-    #db-nav-movie ~ #wrapper a.entrance-link.first-link
-    {
-        background: transparent !important;
-    }
-
-    /* douban music - background color */
-    #db-nav-music ~ #wrapper
-    {
-        background: none repeat scroll 0% 0% #F0F3EF !important;
-    }
-
-    /* douban music - h2 */
-    #db-nav-music ~ #wrapper h2
-    {
-        background: #D4DDD1 !important;
-    }
-
-    /* douban location - background color */
-    #db-nav-location ~ #wrapper
-    {
-        background: none repeat scroll 0% 0% #F6F5F2 !important;
-    }
-
-    /* douban location - h2 */
-    #db-nav-location ~ #wrapper div.hd
-    {
-        background: #E2DDD4 !important;
-        border-radius: 3px !important;
-        padding: 4px !important;
-    }
-
-    /* douban location - slide control */
-    #db-nav-location ~ #wrapper .ui-slide-control
-    {
-        line-height: 27px !important;
-    }
-
-    /* douban location - app list */
-    #db-nav-location ~ #wrapper a.entrance-link.first-link
-    {
-        background: transparent !important;
-    }
-
-    /* douban group - background color */
-    #db-nav-group ~ #wrapper
-    {
-        background: none repeat scroll 0% 0% #F0F6F3 !important;
+        color: rgb(153, 153, 153) !important;
     }
 }

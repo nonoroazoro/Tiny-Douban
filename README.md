@@ -1,5 +1,5 @@
 Tiny Douban
-===============
+===========
 
 Tiny Douban is a simple customized style for [Douban](http://www.douban.com).
 
