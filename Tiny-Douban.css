@@ -16,6 +16,42 @@
     }
 }
 
+@-moz-document url("http://www.douban.com/")
+{
+    /* body background color */
+    body
+    {
+        background-color: #76827B !important;
+        padding-bottom: 28px !important;
+    }
+
+    /* header */
+    .nav
+    {
+        padding-top: 28px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* h2 */
+    h2
+    {
+        border-radius: 3px !important;
+        font-weight: bold !important;
+        padding: 4px !important;
+        background-color: #D4DDD1 !important;
+    }
+
+    /* content area border-radius */
+    #wrapper
+    {
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% rgb(237, 244, 237) !important;
+    }
+}
+
 @-moz-document domain("book.douban.com")
 {
     /* body background color */
@@ -57,6 +93,11 @@
         border-radius: 20px !important;
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
         background: none repeat scroll 0% 0% #F6F6F1 !important;
+    }
+
+    #wrapper .minibar
+    {
+        padding: 10px 0px 8px !important;
     }
 
     /* slide control */
@@ -331,7 +372,7 @@
     }
 }
 
-@-moz-document url-prefix("http://www.douban.com/note"), url-prefix("http://www.douban.com/explore")
+@-moz-document url-prefix("http://www.douban.com/note"), url-prefix("http://www.douban.com/explore"), url-prefix("http://www.douban.com/people")
 {
     /* body background color */
     body
