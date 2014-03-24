@@ -331,9 +331,51 @@
     }
 }
 
+@-moz-document url-prefix("http://www.douban.com/note"), url-prefix("http://www.douban.com/explore")
+{
+    /* body background color */
+    body
+    {
+        background-color: #76827B !important;
+        padding-bottom: 28px !important;
+    }
+
+    /* header */
+    .nav
+    {
+        padding-top: 28px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* h2 */
+    h2
+    {
+        border-radius: 3px !important;
+        font-weight: bold !important;
+        padding: 4px !important;
+        background-color: #D4DDD1 !important;
+    }
+
+    /* content area border-radius */
+    #wrapper
+    {
+        padding: 20px 20px 0 !important;
+        border: 6px solid rgb(84, 86, 82) !important;
+        border-radius: 20px !important;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+        background: none repeat scroll 0% 0% rgb(237, 244, 237) !important;
+    }
+
+    /* more link */
+    #wrapper div.hd > span.more
+    {
+        line-height: 30px !important;
+    }
+}
+
 @-moz-document url-prefix("http://www.douban.com/group")
 {
-  /* body background color */
+    /* body background color */
     body
     {
         background-color: #76827B !important;
@@ -459,20 +501,6 @@
     {
         padding-top: 28px !important;
         margin-bottom: 28px !important;
-    }
-
-    /* h2 */
-    h2
-    {
-        border-radius: 3px !important;
-        font-weight: bold !important;
-        padding: 4px !important;
-    }
-
-    /* h3 */
-    h3
-    {
-        border-radius: 3px !important;
     }
 
     /* content area border-radius */
