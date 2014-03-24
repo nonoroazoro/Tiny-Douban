@@ -11,6 +11,7 @@
     body
     {
         background-color: #76827B !important;
+        padding-bottom: 28px !important;
     }
 
     /* fixed top bar */
@@ -28,8 +29,16 @@
         margin-bottom: 28px !important;
     }
 
-    /* h2, h3 */
-    h2, h3
+    /* h2 */
+    h2
+    {
+        border-radius: 3px !important;
+        font-weight: bold !important;
+        padding: 4px !important;
+    }
+
+    /* h3 */
+    h3
     {
         border-radius: 3px !important;
     }
@@ -53,9 +62,7 @@
     #db-nav-book ~ #wrapper h2
     {
         background: #E2E2D1 !important;
-        padding: 4px !important;
-        font-weight: bold !important;
-    }
+     }
 
     /* douban book - h3 */
     #db-nav-book ~ #wrapper h3
@@ -101,14 +108,11 @@
     #db-nav-movie ~ #wrapper h2
     {
         background: #D2DBE1 !important;
-        font-weight: bold !important;
-        padding: 4px !important;
     }
 
     /* douban movie - h3 */
     #db-nav-movie ~ #wrapper h3
     {
-        background: #D2DBE1 !important;
         padding: 2px !important;
     }
 
@@ -122,6 +126,12 @@
     #db-nav-music ~ #wrapper
     {
         background: none repeat scroll 0% 0% #F0F3EF !important;
+    }
+
+    /* douban music - h2 */
+    #db-nav-music ~ #wrapper h2
+    {
+        background: #D4DDD1 !important;
     }
 
     /* douban location - background color */
