@@ -95,6 +95,7 @@
         background: none repeat scroll 0% 0% #F6F6F1 !important;
     }
 
+    /* adjust after login */
     #wrapper .minibar
     {
         padding: 10px 0px 8px !important;
