@@ -401,15 +401,8 @@ url-prefix("http://www.douban.com/event")
 
 @-moz-document domain("read.douban.com")
 {
-    /* body background color */
-    body
-    {
-        background-color: #76827B !important;
-        padding-bottom: 28px !important;
-    }
-
     /* border-radius and background color */
-    div.main
+    .wrapper .main
     {
         padding: 20px 30px 0 20px !important;
         border: 6px solid #545652 !important;
@@ -419,7 +412,7 @@ url-prefix("http://www.douban.com/event")
     }
 
     /* slide control */
-    div.aside-slide-controls
+    .aside-slide-controls
     {
         background-color: transparent !important;
     }
