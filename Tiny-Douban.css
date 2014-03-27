@@ -447,9 +447,9 @@ url-prefix("http://www.douban.com/event")
 @-moz-document domain("dongxi.douban.com")
 {
     /* header */
-    .nav
+    #db-nav-commodity
     {
-        padding-top: 28px !important;
+        margin-top: 28px !important;
         margin-bottom: 28px !important;
     }
 
@@ -468,29 +468,6 @@ url-prefix("http://www.douban.com/event")
 
 @-moz-document url-prefix("http://www.douban.com/mobile")
 {
-    /* body background color */
-    body
-    {
-        background-color: #76827B !important;
-        padding-bottom: 28px !important;
-    }
-
-    /* header */
-    .nav
-    {
-        padding-top: 28px !important;
-        margin-bottom: 28px !important;
-    }
-
-    /* content area border-radius */
-    #wrapper
-    {
-        padding: 20px 20px 0 !important;
-        border: 6px solid #545652 !important;
-        border-radius: 20px !important;
-        box-shadow: 0px 5px 5px #000;
-    }
-
     /* background color */
     #wrapper,
     #wrapper div.show-more-link-wrap
