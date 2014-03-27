@@ -7,7 +7,7 @@ Tiny Douban is a simple customized style for [Douban](http://www.douban.com).
 
 **Precondition:** [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/) installed.
 
-- **Automating** (*Recommended*): [Check Here](http://userstyles.org/styles/90123/tiny-douban).
+- **Automating** (*Recommended*): [Check Here](http://userstyles.org/styles/99651/tiny-douban).
 
 - **Manual**: Add a new style in [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/) for [Douban](http://www.douban.com) and paste the content of [Tiny-Douban.css](/Tiny-Douban.css) into it.
 
