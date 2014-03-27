@@ -442,6 +442,7 @@ url-prefix("http://www.douban.com/event")
 
 @-moz-document domain("douban.fm")
 {
+    /* TODO */
 }
 
 @-moz-document domain("dongxi.douban.com")
@@ -480,6 +481,11 @@ url-prefix("http://www.douban.com/event")
     {
         background-color: transparent !important;
     }
+}
+
+@-moz-document url-prefix("http://www.douban.com/share/service")
+{
+    /* TODO */
 }
 
 /* 9.douban */
