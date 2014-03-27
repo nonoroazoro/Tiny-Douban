@@ -378,12 +378,24 @@ url-prefix("http://www.douban.com/event")
         background: none repeat scroll 0% 0% #F0F6F3 !important;
     }
 
+    /* aside bar more link */
+    #wrapper .aside span.more
+    {
+        margin-top: 2px !important;
+    }
+
+    /* app list */
+    #wrapper .aside .mod-app-entrance
+    {
+        background-color: transparent !important;
+    }
+
     /* popup dialog */
     .fixed-fields
     {
         background-color: transparent !important;
         padding-top: 0 !important;
-        margin-top: 28px !important;
+        margin-top: 38px !important;
     }
 }
 
