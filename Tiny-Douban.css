@@ -432,6 +432,12 @@ url-prefix("http://www.douban.com/event")
         background-color: transparent !important;
         padding-bottom: 0 !important;
     }
+
+    /* h2 */
+    h2
+    {
+        padding: 0 !important;
+    }
 }
 
 @-moz-document domain("douban.fm")
