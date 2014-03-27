@@ -13,6 +13,12 @@ Tiny Douban is a simple customized style for [Douban](http://www.douban.com).
 
 #Changelog
 
+###<a href="#changelog-1.1" id="changelog-1.1">1.1</a>
+
+March 27th, 2014
+
+- almost changed everything.
+
 ###<a href="#changelog-1.0" id="changelog-1.0">1.0</a>
 
 March 24th, 2014
