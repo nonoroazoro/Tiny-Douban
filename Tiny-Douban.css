@@ -14,12 +14,19 @@
     }
 
     /* fixed top bar */
-    .global-nav
+    body > .global-nav
     {
         position: fixed !important;
         top: 0 !important;
         width: 100% !important;
         z-index: 99 !important;
+    }
+
+    /* header */
+    body > .nav
+    {
+        margin-top: 28px !important;
+        margin-bottom: 28px !important;
     }
 
     /* h2 */
@@ -76,13 +83,6 @@ url-prefix("https://www.douban.com")
     #anony-reg ~ div[id^="anony-"] > .wrapper h2
     {
         background-color: #C8D5DD !important;
-    }
-
-    /* logined header */
-    #db-nav-sns
-    {
-        padding-top: 28px !important;
-        margin-bottom: 28px !important;
     }
 
     /* logined content */
@@ -142,13 +142,6 @@ url-prefix("https://www.douban.com/accounts")
 
 @-moz-document domain("book.douban.com")
 {
-    /* header */
-    #db-nav-book
-    {
-        margin-top: 28px !important;
-        margin-bottom: 28px !important;
-    }
-
     /* h2 */
     h2
     {
@@ -192,13 +185,6 @@ url-prefix("https://www.douban.com/accounts")
 
 @-moz-document domain("movie.douban.com")
 {
-    /* header */
-    #db-nav-movie
-    {
-        margin-top: 28px !important;
-        margin-bottom: 28px !important;
-    }
-
     /* h2, slide control */
     h2, #mine-tuan
     {
@@ -242,13 +228,6 @@ url-prefix("https://www.douban.com/accounts")
 
 @-moz-document domain("music.douban.com")
 {
-    /* header */
-    #db-nav-music
-    {
-        margin-top: 28px !important;
-        margin-bottom: 28px !important;
-    }
-
     /* h2 */
     h2
     {
@@ -279,13 +258,6 @@ url-prefix("https://www.douban.com/accounts")
 url-prefix("http://www.douban.com/location"),
 url-prefix("http://www.douban.com/event")
 {
-    /* header */
-    #db-nav-location
-    {
-        margin-top: 28px !important;
-        margin-bottom: 28px !important;
-    }
-
     /* h2 */
     h2
     {
@@ -359,13 +331,6 @@ url-prefix("http://www.douban.com/event")
 
 @-moz-document url-prefix("http://www.douban.com/group")
 {
-    /* header */
-    #db-nav-group
-    {
-        margin-top: 28px !important;
-        margin-bottom: 28px !important;
-    }
-
     /* h2 */
     h2
     {
@@ -447,13 +412,6 @@ url-prefix("http://www.douban.com/event")
 
 @-moz-document domain("dongxi.douban.com")
 {
-    /* header */
-    #db-nav-commodity
-    {
-        margin-top: 28px !important;
-        margin-bottom: 28px !important;
-    }
-
     /* content area */
     #wrapper
     {
@@ -498,19 +456,19 @@ url-prefix("http://www.douban.com/event")
     }
 
     /* header */
-    .header
+    body > .header
     {
         margin-bottom: 28px !important;
     }
 
     /* seperator */
-    .bold_line
+    body > .bold_line
     {
         display: none !important;
     }
 
     /* border-radius and background color */
-    .wapper.main
+    body > .wapper.main
     {
         padding: 20px 20px 0 !important;
         border: 6px solid #545652 !important;
