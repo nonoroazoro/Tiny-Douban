@@ -111,6 +111,13 @@ url-prefix("https://www.douban.com")
         background-color: transparent !important;
     }
 
+    /* logined aside header */
+    #wrapper .aside .notify-mod
+    {
+        padding-left: 16px 0 !important;
+    }
+
+
     /* logined aside bar */
     #wrapper .aside span.more
     {
